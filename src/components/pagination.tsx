@@ -49,7 +49,7 @@ export default function Pagination({
                 className="size-8 p-0"
               >
                 <ChevronsLeft className="size-4" />
-                <span className="sr-only">Voltar para o início</span>
+                <span className="sr-only">Primeira página</span>
               </Button>
             </PaginationItem>
             <PaginationItem>
@@ -61,7 +61,7 @@ export default function Pagination({
                 className="size-8 p-0"
               >
                 <ChevronLeft className="size-4" />
-                <span className="sr-only">Voltar para o anterior</span>
+                <span className="sr-only">Página anterior</span>
               </Button>
             </PaginationItem>
             <PaginationItem>
@@ -73,7 +73,7 @@ export default function Pagination({
                 className="size-8 p-0"
               >
                 <ChevronRight className="size-4" />
-                <span className="sr-only">Avançar para o próximo</span>
+                <span className="sr-only">Próxima página</span>
               </Button>
             </PaginationItem>
             <PaginationItem>
@@ -85,7 +85,7 @@ export default function Pagination({
                 className="size-8 p-0"
               >
                 <ChevronsRight className="size-4" />
-                <span className="sr-only">Avançar para o final</span>
+                <span className="sr-only">Última página</span>
               </Button>
             </PaginationItem>
           </PaginationContent>
