@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+# Pizza Shop Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of contents
 
-Currently, two official plugins are available:
+- [Overview](#overview) 
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-proccess)
+  - [Built with](#build-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+### The challenge
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Users should be able to:
 
-- Configure the top-level `parserOptions` property like this:
+- Sign in
+- Sign up
+- Update their personal information
+- View detailed information on the Dashboard page
+- Access detailed information about orders on the Orders page
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Screenshot
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![](./.github/preview.png)
+
+## My process
+
+### Build with
+
+- [TypeScript](https://www.typescriptlang.org/) - Typed programming language that builds on JavaScript
+- [React.js](https://react.dev/) - JavaScript Library
+- [Axios](https://axios-http.com/) - Amazing client HTTP library for web and node. 
+- [Tanstack Query](https://tanstack.com/query/v3/) - Amazing and powerful asynchronous state management. 
+- [Shadcn/ui](https://ui.shadcn.com/) - Styled, accessible and responsive components for building high‑quality web apps in React.
+- [Tailwind CSS](https://tailwindcss.com/) - A amazing utility-first CSS framework.
+- [Lucide React](https://lucide.dev/) - Beautiful & consistent icon library.
+- [Sonner](https://sonner.emilkowal.ski/) - An opinionated toast component for React.
+- [Zod](https://zod.dev/) - TypeScript-first schema validation with static type inference.
+
+### Useful resources
+
+- [Shadcn/ui](https://ui.shadcn.com/) - This is an amazing component library which helped me create accessible components. I'd recommend it to anyone still use this library.
+
+## Author
+
+- GitHub - [@rodrigoqueiroz12](https://github.com/rodrigoqueiroz12)
+- LinkedIn - [@rodrigoqueiroz](www.linkedin.com/in/rodrigo-queiroz-a113a9212)
